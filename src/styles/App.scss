@@ -1,0 +1,154 @@
+.user-avatar {
+  top: -8px;
+}
+
+.user-avatar img {
+  width: 40%;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.h-80 {
+  height: 80px;
+}
+
+.h-350 {
+  height: 350px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.notification {
+  position: absolute;
+  color: #8dc043;
+  font-size: 4rem;
+  bottom: 26px;
+  right: 19px;
+}
+
+.home-carousel .carousel-caption {
+  top: 20%;
+}
+
+.home-carousel .carousel-item img {
+  opacity: 0.7;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  position: relative;
+  bottom: 4%;
+}
+
+.carousel-control-prev i {
+  left: 20%;
+}
+
+.carousel-control-next i {
+  right: 20%;
+}
+
+.home-carousel .carousel.slide .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border: 1px;
+  border-radius: 25px;
+  position: relative;
+  top: -3px;
+}
+
+.home-carousel .carousel.slide .carousel-indicators .active {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: -5px;
+}
+
+.badge-light {
+  background-color: #e1e6eb !important;
+}
+
+.bg-light-green {
+  background-color: #8dc043;
+}
+
+.cl-light-green {
+  color: #8dc043;
+}
+
+.news-card-shadow {
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+  box-shadow: 0px 2px 7px 0px #bebebe;
+}
+
+.news-card-shadow img {
+  height: 200px;
+}
+
+.news-card-title {
+  height: 135px;
+}
+
+.helped-bg {
+  background: url("../assets/images/helped.png") no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  height: 790px;
+}
+
+.square {
+  width: 160px;
+  height: 160px;
+  border: 3px solid #ffffff;
+  background: transparent;
+  transform: rotate(45deg);
+}
+
+.square-inner {
+  transform: rotate(-45deg);
+}
+
+.square-inner:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.square-inner .fa-map-marker:before,
+.square-inner .fa-eye::before {
+  font-size: 50px;
+}
+
+.square-inner .fa-info::before {
+  font-size: 30px;
+}
+
+.react-date-picker__wrapper {
+  border: none;
+}
+
+.react-date-picker__calendar-button.react-date-picker__button {
+  padding: 0 !important;
+}
+
+.fa-info {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  border: 2px solid #6c757d;
+  padding: 1px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  padding: 0 1em;
+}
+
